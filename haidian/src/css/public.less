@@ -1,0 +1,45 @@
+.flexR {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  flex-shrink: 0; /*如果元素的大小是根据其子元素的来决定，并没有设置width、height或flex-basis 容器重叠在一起的兼容问题*/
+}
+
+.flexC {
+  display: inline-flex;
+  flex-direction: column;
+  flex-shrink: 0; /*如果元素的大小是根据其子元素的来决定，并没有设置width、height或flex-basis 容器重叠在一起的兼容问题*/
+}
+
+.pointer {
+  cursor: pointer;
+  &:hover{
+    color: #1890FF;
+  }
+}
+
+.blueText {
+  color: #1890FF;
+  cursor: pointer;
+}
+
+textarea {
+  resize: none;
+}
+/*滚动条美化*/
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 6px;
+}
+*::-webkit-scrollbar-track {
+  background-color:#F1F1F1;
+  -webkit-border-radius: 2em;
+  -moz-border-radius: 2em;
+  border-radius:2em;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #d8d9da;
+  -webkit-border-radius: 2em;
+  -moz-border-radius: 2em;
+  border-radius:2em;
+}

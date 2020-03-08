@@ -1,0 +1,45 @@
+.flex{
+    display: flex;
+}
+.active-btn , .common-btn:active{
+    opacity: 0.6;
+}
+.flex-column-center{
+    display: flex;
+    align-items: center;
+}
+.flex-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.common-btn{
+    width: 131px;
+    border-radius: 4px;
+    background: rgb(47 117 236);
+    color:white;font-size: 14px;
+    text-align: center;
+    line-height: 34px;
+    border:none;
+    cursor: pointer;
+    -webkit-user-select: none;
+}
+.back-text{
+    color:rgb(24 ,144 ,255);
+    font-size: 14px;
+    cursor: pointer;
+}
+.mask{
+    width: 100%;
+    height: 100%;
+    background: rgba( 0 , 0 , 0 , 0.6);
+    position: fixed;
+    z-index: 2000;
+    top:0;
+    left:0;
+}
